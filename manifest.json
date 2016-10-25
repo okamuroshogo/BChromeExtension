@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "B Extension",
+  "description": "many brian image",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": ["js/synthesis.js","js/jquery-2.1.4.min.js"]
+    }
+  ]
+}
