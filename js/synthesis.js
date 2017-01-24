@@ -1,6 +1,6 @@
 //ロードが終わったら呼ばれる
 //var imageBasePath = 'https://gitlab.planningdev.com/Camp_20160122/BChromeExtension/raw/master/images/';
-var imageBasePath = 'https://gitlab.planningdev.com/Camp_20160122/BChromeExtension/raw/origin/feature_readme/images/';
+var imageBasePath = 'https://gitlab.planningdev.com/Camp_20160122/CChromeExtension/raw/origin/feature_readme/images/';
 //$(window).load(function () {
 window.onload = function(){
     var url = location.href;
@@ -96,17 +96,17 @@ function bPhotoPath(num){
        path_num = Math.floor( Math.random() * 10 ) ;
     }
     switch (path_num) {
-    case 0: return imageBasePath + 'brian_body.png';
-    case 1: return imageBasePath + 'brian_body.png';
-    case 2: return imageBasePath + 'brian_laugh01.png';
-    case 3: return imageBasePath + 'brian_laugh02.png';
-    case 4: return imageBasePath + 'brian_laugh03.png';
-    case 5: return imageBasePath + 'brian_hip01.png';
-    case 6: return imageBasePath + 'brian_hip02.png';
-    case 7: return imageBasePath + 'brian_naked01.png';
-    case 8: return imageBasePath + 'brian_sand01.png';
-    case 9: return imageBasePath + 'brian_sand02.png';
-    default: return imageBasePath + 'brian_sand02.png'; 
+    case 0: return imageBasePath + '01.png';
+    case 1: return imageBasePath + '02.png';
+    case 2: return imageBasePath + '03.png';
+    case 3: return imageBasePath + '04.png';
+    case 4: return imageBasePath + '05.png';
+    case 5: return imageBasePath + '01.png';
+    case 6: return imageBasePath + '02.png';
+    case 7: return imageBasePath + '03.png';
+    case 8: return imageBasePath + '04.png';
+    case 9: return imageBasePath + '05.png';
+    default: return imageBasePath + 01.png'; 
     
     }
 }
